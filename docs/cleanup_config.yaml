@@ -1,0 +1,106 @@
+# DataVault Project Configuration
+# Paths are relative to project root
+
+# Files that should never be moved
+protected_paths:
+  # Root level files
+  - cleanup_project.py
+  - generate_filetree.py
+  - requirements.txt
+  - README.md
+  - setup.py
+  - .gitignore
+  - .env
+  
+  # Documentation
+  - docs/README.md
+  - docs/api/README.md
+  - docs/guides/README.md
+  - docs/references/README.md
+  
+  # Configuration
+  - config/README.md
+  - config/schemas/README.md
+
+# Directories that should be preserved
+protected_directories:
+  # Version Control
+  - .git
+  
+  # Python environments
+  - venv
+  - env
+  - __pycache__
+  - .pytest_cache
+  
+  # Core project directories
+  - src
+  - tests
+  - config
+  - docs
+  
+  # Data directories
+  - datasets/external
+  - datasets/interim
+  - datasets/processed
+  - datasets/raw
+  - datasets/news/raw
+  - datasets/news/processed
+
+# File type mappings
+file_mappings:
+  # Python files
+  "*.py": "src"
+  "test_*.py": "tests"
+  
+  # Data files
+  "*.json": "datasets/raw"
+  "*.csv": "datasets/raw"
+  "*.xlsx": "datasets/raw"
+  
+  # Documentation
+  "*.md": "docs"
+  "*.rst": "docs"
+  "*.pdf": "docs/references"
+  
+  # Notebooks
+  "*.ipynb": "notebooks"
+  
+  # Output files
+  "*.png": "output/figures"
+  "*.jpg": "output/figures"
+  "*.svg": "output/figures"
+  
+  # Configuration files
+  "*.yaml": "config"
+  "*.yml": "config"
+  "*.ini": "config"
+  
+  # SQL files
+  "*.sql": "sql"
+
+# Directory structure to maintain
+directory_structure:
+  - src/collectors
+  - src/core
+  - src/utils
+  - src/scripts
+  - tests/collectors
+  - tests/utils
+  - tests/scripts
+  - tests/unit
+  - tests/integration
+  - tests/fixtures
+  - datasets/external
+  - datasets/interim
+  - datasets/processed
+  - datasets/raw
+  - datasets/news/raw
+  - datasets/news/processed
+  - docs/api
+  - docs/guides
+  - docs/references
+  - output/figures
+  - output/reports
+  - notebooks
+  - config/schemas 

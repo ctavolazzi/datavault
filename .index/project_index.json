@@ -1,0 +1,893 @@
+{
+  "timestamp": "2024-11-03T22:17:45.264574",
+  "files": [
+    {
+      "path": "analyze_project.py",
+      "name": "analyze_project.py",
+      "size": 19977,
+      "modified": "2024-11-03T22:16:58.796989",
+      "created": "2024-11-03T22:10:59.891639",
+      "type": ".py",
+      "encoding": "MacRoman"
+    },
+    {
+      "path": "file_analysis.log",
+      "name": "file_analysis.log",
+      "size": 109056,
+      "modified": "2024-11-03T20:28:30.287501",
+      "created": "2024-11-03T19:50:34.901177",
+      "type": ".log",
+      "encoding": null
+    },
+    {
+      "path": "project_structure.yaml",
+      "name": "project_structure.yaml",
+      "size": 1932,
+      "modified": "2024-11-03T20:51:35.688164",
+      "created": "2024-11-03T20:23:34.878924",
+      "type": ".yaml",
+      "encoding": "ascii"
+    },
+    {
+      "path": "pytest.ini",
+      "name": "pytest.ini",
+      "size": 71,
+      "modified": "2024-11-03T22:02:56.428431",
+      "created": "2024-11-03T21:07:53.799617",
+      "type": ".ini",
+      "encoding": null
+    },
+    {
+      "path": "README.md",
+      "name": "README.md",
+      "size": 22,
+      "modified": "2024-11-03T19:03:18.227023",
+      "created": "2024-11-03T18:32:41.022517",
+      "type": ".md",
+      "encoding": "ascii"
+    },
+    {
+      "path": "requirements.txt",
+      "name": "requirements.txt",
+      "size": 660,
+      "modified": "2024-11-03T21:13:35.424793",
+      "created": "2024-11-03T19:14:03.247755",
+      "type": ".txt",
+      "encoding": "ascii"
+    },
+    {
+      "path": "setup.py",
+      "name": "setup.py",
+      "size": 354,
+      "modified": "2024-11-03T22:02:51.477954",
+      "created": "2024-11-03T20:36:09.211917",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "datavault.egg-info/dependency_links.txt",
+      "name": "dependency_links.txt",
+      "size": 1,
+      "modified": "2024-11-03T22:03:52.162291",
+      "created": "2024-11-03T22:03:00.898177",
+      "type": ".txt",
+      "encoding": "ascii"
+    },
+    {
+      "path": "datavault.egg-info/PKG-INFO",
+      "name": "PKG-INFO",
+      "size": 268,
+      "modified": "2024-11-03T22:03:52.161290",
+      "created": "2024-11-03T22:03:52.161290",
+      "type": "",
+      "encoding": null
+    },
+    {
+      "path": "datavault.egg-info/requires.txt",
+      "name": "requires.txt",
+      "size": 124,
+      "modified": "2024-11-03T22:03:52.162291",
+      "created": "2024-11-03T22:03:00.899177",
+      "type": ".txt",
+      "encoding": "ascii"
+    },
+    {
+      "path": "datavault.egg-info/SOURCES.txt",
+      "name": "SOURCES.txt",
+      "size": 912,
+      "modified": "2024-11-03T22:03:52.205291",
+      "created": "2024-11-03T22:03:00.899177",
+      "type": ".txt",
+      "encoding": "ascii"
+    },
+    {
+      "path": "datavault.egg-info/top_level.txt",
+      "name": "top_level.txt",
+      "size": 26,
+      "modified": "2024-11-03T22:03:52.162291",
+      "created": "2024-11-03T22:03:00.899177",
+      "type": ".txt",
+      "encoding": "ascii"
+    },
+    {
+      "path": "docs/cleanup_config.yaml",
+      "name": "cleanup_config.yaml",
+      "size": 1983,
+      "modified": "2024-11-03T19:49:34.058188",
+      "created": "2024-11-03T19:49:30.980905",
+      "type": ".yaml",
+      "encoding": "ascii"
+    },
+    {
+      "path": "docs/file_analysis.log",
+      "name": "file_analysis.log",
+      "size": 109056,
+      "modified": "2024-11-03T20:28:30.287501",
+      "created": "2024-11-03T20:28:30.296129",
+      "type": ".log",
+      "encoding": null
+    },
+    {
+      "path": "logs/project.log",
+      "name": "project.log",
+      "size": 0,
+      "modified": "2024-11-03T22:11:31.581649",
+      "created": "2024-11-03T22:11:31.581649",
+      "type": ".log",
+      "encoding": null
+    },
+    {
+      "path": "project_manager/file_analyzer.py",
+      "name": "file_analyzer.py",
+      "size": 1001,
+      "modified": "2024-11-03T22:05:16.628604",
+      "created": "2024-11-03T19:50:27.817620",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "project_manager/file_analyzer.py.bak",
+      "name": "file_analyzer.py.bak",
+      "size": 749,
+      "modified": "2024-11-03T22:03:18.861140",
+      "created": "2024-11-03T22:03:13.855830",
+      "type": ".bak",
+      "encoding": null
+    },
+    {
+      "path": "project_manager/log_manager.py",
+      "name": "log_manager.py",
+      "size": 14953,
+      "modified": "2024-11-03T20:46:18.545737",
+      "created": "2024-11-03T20:37:52.427250",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "project_manager/project_indexer.py",
+      "name": "project_indexer.py",
+      "size": 10951,
+      "modified": "2024-11-03T21:30:57.867640",
+      "created": "2024-11-03T21:16:20.913808",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "project_manager/project_manager.py",
+      "name": "project_manager.py",
+      "size": 21505,
+      "modified": "2024-11-03T22:02:44.121404",
+      "created": "2024-11-03T20:37:57.711234",
+      "type": ".py",
+      "encoding": "MacRoman"
+    },
+    {
+      "path": "project_manager/setup.py",
+      "name": "setup.py",
+      "size": 4837,
+      "modified": "2024-11-03T22:02:00.003052",
+      "created": "2024-11-03T22:01:31.053557",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "project_manager/__init__.py",
+      "name": "__init__.py",
+      "size": 240,
+      "modified": "2024-11-03T22:03:34.774659",
+      "created": "2024-11-03T20:37:38.386405",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "setup_scripts/generate_filetree.py",
+      "name": "generate_filetree.py",
+      "size": 3562,
+      "modified": "2024-11-03T19:53:33.938447",
+      "created": "2024-11-03T19:45:37.515460",
+      "type": ".py",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "setup_scripts/logging.py",
+      "name": "logging.py",
+      "size": 9009,
+      "modified": "2024-11-03T22:11:25.725038",
+      "created": "2024-11-03T20:32:40.745818",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "setup_scripts/manage_backups.py",
+      "name": "manage_backups.py",
+      "size": 5024,
+      "modified": "2024-11-03T21:37:22.221061",
+      "created": "2024-11-03T21:37:19.120233",
+      "type": ".py",
+      "encoding": "Windows-1252"
+    },
+    {
+      "path": "setup_scripts/project_indexer.py",
+      "name": "project_indexer.py",
+      "size": 8850,
+      "modified": "2024-11-03T21:31:37.018769",
+      "created": "2024-11-03T21:18:20.278734",
+      "type": ".py",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "setup_scripts/reset_project.py",
+      "name": "reset_project.py",
+      "size": 22589,
+      "modified": "2024-11-03T20:15:11.110528",
+      "created": "2024-11-03T19:56:58.960545",
+      "type": ".py",
+      "encoding": "Windows-1252"
+    },
+    {
+      "path": "setup_scripts/setup_project.py",
+      "name": "setup_project.py",
+      "size": 3320,
+      "modified": "2024-11-03T19:03:07.070991",
+      "created": "2024-11-03T19:59:28.063740",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "setup_scripts/verify_backup.py",
+      "name": "verify_backup.py",
+      "size": 5104,
+      "modified": "2024-11-03T21:36:43.375291",
+      "created": "2024-11-03T21:36:30.798100",
+      "type": ".py",
+      "encoding": "MacRoman"
+    },
+    {
+      "path": "src/cleanup_project.py",
+      "name": "cleanup_project.py",
+      "size": 1587,
+      "modified": "2024-11-03T19:54:25.014810",
+      "created": "2024-11-03T19:53:20.111095",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/__init__.py",
+      "name": "__init__.py",
+      "size": 1,
+      "modified": "2024-11-03T19:06:21.895097",
+      "created": "2024-11-03T19:06:19.927158",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/conftest.py",
+      "name": "conftest.py",
+      "size": 1295,
+      "modified": "2024-11-03T22:01:14.704493",
+      "created": "2024-11-03T22:01:10.847176",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/test_logging.py",
+      "name": "test_logging.py",
+      "size": 16907,
+      "modified": "2024-11-03T20:48:32.132209",
+      "created": "2024-11-03T20:33:51.208404",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/test_project_indexer.py",
+      "name": "test_project_indexer.py",
+      "size": 4629,
+      "modified": "2024-11-03T21:17:18.766124",
+      "created": "2024-11-03T21:15:13.696808",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/test_project_manager.py",
+      "name": "test_project_manager.py",
+      "size": 7787,
+      "modified": "2024-11-03T21:12:52.833061",
+      "created": "2024-11-03T21:05:20.504914",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/test_restore.py",
+      "name": "test_restore.py",
+      "size": 96,
+      "modified": "2024-11-03T22:05:49.344390",
+      "created": "2024-11-03T21:42:57.810203",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/test_setup.py",
+      "name": "test_setup.py",
+      "size": 4814,
+      "modified": "2024-11-03T22:01:58.760599",
+      "created": "2024-11-03T22:01:53.800343",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/__init__.py",
+      "name": "__init__.py",
+      "size": 37,
+      "modified": "2024-11-03T22:03:33.599047",
+      "created": "2024-11-03T22:03:27.148220",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "datasets/raw/analysis.json",
+      "name": "analysis.json",
+      "size": 2,
+      "modified": "2024-11-03T19:50:41.389948",
+      "created": "2024-11-03T19:50:41.389948",
+      "type": ".json",
+      "encoding": "ascii"
+    },
+    {
+      "path": "datasets/raw/news_20241103_193048.json",
+      "name": "news_20241103_193048.json",
+      "size": 10896,
+      "modified": "2024-11-03T19:30:48.697407",
+      "created": "2024-11-03T19:30:48.696407",
+      "type": ".json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "datasets/raw/news_20241103_193122.json",
+      "name": "news_20241103_193122.json",
+      "size": 10896,
+      "modified": "2024-11-03T19:31:22.371671",
+      "created": "2024-11-03T19:31:22.371671",
+      "type": ".json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "output/figures/keywords_20241103_191453.png",
+      "name": "keywords_20241103_191453.png",
+      "size": 595673,
+      "modified": "2024-11-03T19:14:53.844217",
+      "created": "2024-11-03T19:14:53.775054",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_191641.png",
+      "name": "keywords_20241103_191641.png",
+      "size": 1944973,
+      "modified": "2024-11-03T19:16:41.964980",
+      "created": "2024-11-03T19:16:41.645840",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_191822.png",
+      "name": "keywords_20241103_191822.png",
+      "size": 2011929,
+      "modified": "2024-11-03T19:18:22.773976",
+      "created": "2024-11-03T19:18:22.449843",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_191925.png",
+      "name": "keywords_20241103_191925.png",
+      "size": 2087780,
+      "modified": "2024-11-03T19:19:26.608544",
+      "created": "2024-11-03T19:19:26.286962",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_192055.png",
+      "name": "keywords_20241103_192055.png",
+      "size": 2108027,
+      "modified": "2024-11-03T19:20:55.964976",
+      "created": "2024-11-03T19:20:55.641892",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_192827.png",
+      "name": "keywords_20241103_192827.png",
+      "size": 2027765,
+      "modified": "2024-11-03T19:28:27.955298",
+      "created": "2024-11-03T19:28:27.634221",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_192906.png",
+      "name": "keywords_20241103_192906.png",
+      "size": 2053116,
+      "modified": "2024-11-03T19:29:07.006559",
+      "created": "2024-11-03T19:29:06.677725",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_192957.png",
+      "name": "keywords_20241103_192957.png",
+      "size": 2114621,
+      "modified": "2024-11-03T19:29:58.305366",
+      "created": "2024-11-03T19:29:57.974753",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_193049.png",
+      "name": "keywords_20241103_193049.png",
+      "size": 2008551,
+      "modified": "2024-11-03T19:30:50.316360",
+      "created": "2024-11-03T19:30:49.988401",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/keywords_20241103_193123.png",
+      "name": "keywords_20241103_193123.png",
+      "size": 2028971,
+      "modified": "2024-11-03T19:31:24.007572",
+      "created": "2024-11-03T19:31:23.682656",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_191452.png",
+      "name": "sources_20241103_191452.png",
+      "size": 63982,
+      "modified": "2024-11-03T19:14:52.977912",
+      "created": "2024-11-03T19:14:52.959913",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_191640.png",
+      "name": "sources_20241103_191640.png",
+      "size": 300987,
+      "modified": "2024-11-03T19:16:40.603322",
+      "created": "2024-11-03T19:16:40.416324",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_191821.png",
+      "name": "sources_20241103_191821.png",
+      "size": 301086,
+      "modified": "2024-11-03T19:18:21.608975",
+      "created": "2024-11-03T19:18:21.419030",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_191925.png",
+      "name": "sources_20241103_191925.png",
+      "size": 300996,
+      "modified": "2024-11-03T19:19:25.466596",
+      "created": "2024-11-03T19:19:25.277364",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_192054.png",
+      "name": "sources_20241103_192054.png",
+      "size": 300548,
+      "modified": "2024-11-03T19:20:54.734388",
+      "created": "2024-11-03T19:20:54.545372",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_192826.png",
+      "name": "sources_20241103_192826.png",
+      "size": 301291,
+      "modified": "2024-11-03T19:28:26.777681",
+      "created": "2024-11-03T19:28:26.589715",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_192905.png",
+      "name": "sources_20241103_192905.png",
+      "size": 301269,
+      "modified": "2024-11-03T19:29:05.775761",
+      "created": "2024-11-03T19:29:05.579559",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_192956.png",
+      "name": "sources_20241103_192956.png",
+      "size": 301269,
+      "modified": "2024-11-03T19:29:57.121751",
+      "created": "2024-11-03T19:29:56.928564",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_193048.png",
+      "name": "sources_20241103_193048.png",
+      "size": 300602,
+      "modified": "2024-11-03T19:30:49.127399",
+      "created": "2024-11-03T19:30:48.938408",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/sources_20241103_193122.png",
+      "name": "sources_20241103_193122.png",
+      "size": 300821,
+      "modified": "2024-11-03T19:31:22.801104",
+      "created": "2024-11-03T19:31:22.608104",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_191642.png",
+      "name": "timeline_20241103_191642.png",
+      "size": 117032,
+      "modified": "2024-11-03T19:16:42.267401",
+      "created": "2024-11-03T19:16:42.130905",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_191822.png",
+      "name": "timeline_20241103_191822.png",
+      "size": 117130,
+      "modified": "2024-11-03T19:18:23.070254",
+      "created": "2024-11-03T19:18:22.926866",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_191926.png",
+      "name": "timeline_20241103_191926.png",
+      "size": 117036,
+      "modified": "2024-11-03T19:19:26.917616",
+      "created": "2024-11-03T19:19:26.771339",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_192056.png",
+      "name": "timeline_20241103_192056.png",
+      "size": 116569,
+      "modified": "2024-11-03T19:20:56.275087",
+      "created": "2024-11-03T19:20:56.129851",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_192828.png",
+      "name": "timeline_20241103_192828.png",
+      "size": 117346,
+      "modified": "2024-11-03T19:28:28.259234",
+      "created": "2024-11-03T19:28:28.113299",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_192907.png",
+      "name": "timeline_20241103_192907.png",
+      "size": 117323,
+      "modified": "2024-11-03T19:29:07.302655",
+      "created": "2024-11-03T19:29:07.159557",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_192958.png",
+      "name": "timeline_20241103_192958.png",
+      "size": 117323,
+      "modified": "2024-11-03T19:29:58.607697",
+      "created": "2024-11-03T19:29:58.471088",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_193050.png",
+      "name": "timeline_20241103_193050.png",
+      "size": 116629,
+      "modified": "2024-11-03T19:30:50.626234",
+      "created": "2024-11-03T19:30:50.486234",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "output/figures/timeline_20241103_193124.png",
+      "name": "timeline_20241103_193124.png",
+      "size": 116864,
+      "modified": "2024-11-03T19:31:24.305799",
+      "created": "2024-11-03T19:31:24.162572",
+      "type": ".png",
+      "encoding": null
+    },
+    {
+      "path": "project_manager/collectors/news_collector.py",
+      "name": "news_collector.py",
+      "size": 1446,
+      "modified": "2024-11-03T22:06:07.526539",
+      "created": "2024-11-03T22:06:04.628356",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "project_manager/collectors/__init__.py",
+      "name": "__init__.py",
+      "size": 34,
+      "modified": "2024-11-03T22:06:03.049458",
+      "created": "2024-11-03T22:06:01.267220",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/collectors/news_collector.py",
+      "name": "news_collector.py",
+      "size": 4453,
+      "modified": "2024-11-03T19:11:54.188397",
+      "created": "2024-11-03T19:04:43.078977",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/collectors/__init__.py",
+      "name": "__init__.py",
+      "size": 32,
+      "modified": "2024-11-03T19:06:28.359158",
+      "created": "2024-11-03T19:06:26.360937",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/core/exceptions.py",
+      "name": "exceptions.py",
+      "size": 332,
+      "modified": "2024-11-03T19:07:13.788308",
+      "created": "2024-11-03T19:07:09.517856",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/core/logging.py",
+      "name": "logging.py",
+      "size": 676,
+      "modified": "2024-11-03T19:07:07.702467",
+      "created": "2024-11-03T19:07:01.417526",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/core/__init__.py",
+      "name": "__init__.py",
+      "size": 134,
+      "modified": "2024-11-03T19:06:59.928374",
+      "created": "2024-11-03T19:06:50.924190",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/scripts/analyze_collections.py",
+      "name": "analyze_collections.py",
+      "size": 2079,
+      "modified": "2024-11-03T19:09:14.525497",
+      "created": "2024-11-03T19:09:12.459384",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/scripts/__init__.py",
+      "name": "__init__.py",
+      "size": 24,
+      "modified": "2024-11-03T19:06:25.413279",
+      "created": "2024-11-03T19:06:23.136853",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/utils/cleanup.py",
+      "name": "cleanup.py",
+      "size": 1927,
+      "modified": "2024-11-03T19:12:21.932040",
+      "created": "2024-11-03T19:12:19.589673",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/utils/news_analysis.py",
+      "name": "news_analysis.py",
+      "size": 5681,
+      "modified": "2024-11-03T19:10:15.979753",
+      "created": "2024-11-03T19:08:02.453968",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/utils/project_indexer.py",
+      "name": "project_indexer.py",
+      "size": 3133,
+      "modified": "2024-11-03T21:14:10.976708",
+      "created": "2024-11-03T21:14:07.966305",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/utils/report.py",
+      "name": "report.py",
+      "size": 8350,
+      "modified": "2024-11-03T19:39:07.423335",
+      "created": "2024-11-03T19:18:07.377476",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/utils/setup.py",
+      "name": "setup.py",
+      "size": 398,
+      "modified": "2024-11-03T19:16:58.753094",
+      "created": "2024-11-03T19:16:56.627335",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/utils/visualize.py",
+      "name": "visualize.py",
+      "size": 6781,
+      "modified": "2024-11-03T19:16:10.354523",
+      "created": "2024-11-03T19:12:32.159011",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "src/utils/__init__.py",
+      "name": "__init__.py",
+      "size": 0,
+      "modified": "2024-11-03T20:09:13.683307",
+      "created": "2024-11-03T20:09:13.683307",
+      "type": ".py",
+      "encoding": null
+    },
+    {
+      "path": "tests/unit/test_news_collection.py",
+      "name": "test_news_collection.py",
+      "size": 2990,
+      "modified": "2024-11-03T22:06:27.797149",
+      "created": "2024-11-03T19:44:05.750738",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/unit/test_news_collection_test.py",
+      "name": "test_news_collection_test.py",
+      "size": 1,
+      "modified": "2024-11-03T19:40:22.124589",
+      "created": "2024-11-03T19:44:05.763737",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/unit/test_news_collector.py",
+      "name": "test_news_collector.py",
+      "size": 2113,
+      "modified": "2024-11-03T19:05:37.396377",
+      "created": "2024-11-03T19:05:34.559211",
+      "type": ".py",
+      "encoding": "ascii"
+    },
+    {
+      "path": "tests/unit/test_report.py",
+      "name": "test_report.py",
+      "size": 2304,
+      "modified": "2024-11-03T19:39:46.170141",
+      "created": "2024-11-03T19:39:42.333768",
+      "type": ".py",
+      "encoding": "ascii"
+    }
+  ],
+  "directories": [
+    {
+      "path": "datavault.egg-info",
+      "name": "datavault.egg-info"
+    },
+    {
+      "path": "docs",
+      "name": "docs"
+    },
+    {
+      "path": "logs",
+      "name": "logs"
+    },
+    {
+      "path": "project_manager",
+      "name": "project_manager"
+    },
+    {
+      "path": "setup_scripts",
+      "name": "setup_scripts"
+    },
+    {
+      "path": "src",
+      "name": "src"
+    },
+    {
+      "path": "tests",
+      "name": "tests"
+    },
+    {
+      "path": "datasets/raw",
+      "name": "raw"
+    },
+    {
+      "path": "output/figures",
+      "name": "figures"
+    },
+    {
+      "path": "project_manager/collectors",
+      "name": "collectors"
+    },
+    {
+      "path": "src/collectors",
+      "name": "collectors"
+    },
+    {
+      "path": "src/core",
+      "name": "core"
+    },
+    {
+      "path": "src/scripts",
+      "name": "scripts"
+    },
+    {
+      "path": "src/utils",
+      "name": "utils"
+    },
+    {
+      "path": "tests/unit",
+      "name": "unit"
+    }
+  ],
+  "metadata": {
+    "total_files": 90,
+    "total_dirs": 15,
+    "file_types": {
+      ".py": 44,
+      ".log": 3,
+      ".yaml": 2,
+      ".ini": 1,
+      ".md": 1,
+      ".txt": 5,
+      "": 1,
+      ".bak": 1,
+      ".json": 3,
+      ".png": 29
+    }
+  }
+}
