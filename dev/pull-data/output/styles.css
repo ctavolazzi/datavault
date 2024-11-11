@@ -1,0 +1,118 @@
+* {
+    outline: 2px solid orange !important;
+    background-color: rgba(255, 165, 0, 0.1) !important;
+}
+
+body {
+    background: linear-gradient(45deg, #000000, #1a1a1a) !important;
+    color: #00ff00 !important;
+    font-family: 'Courier New', monospace !important;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    box-shadow: 0 0 20px #00ff00 !important;
+}
+
+h1, h2, h3, .page-title {
+    color: #00ff00 !important;
+    text-shadow: 0 0 10px #00ff00 !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+}
+
+a {
+    color: #ff00ff !important;
+    text-decoration: none !important;
+    transition: all 0.3s !important;
+}
+
+a:hover {
+    color: #00ff00 !important;
+    text-shadow: 0 0 10px #00ff00 !important;
+    transform: scale(1.05) !important;
+}
+
+.lead {
+    color: #00cc00 !important;
+    font-size: 1.2em !important;
+}
+
+#site-nav {
+    background: rgba(0, 0, 0, 0.9) !important;
+    border-bottom: 2px solid #00ff00 !important;
+}
+
+.nav-tabs {
+    border: none !important;
+}
+
+.nav-tabs > li > a {
+    background: transparent !important;
+    border: 2px solid #00ff00 !important;
+    margin: 5px !important;
+    border-radius: 10px !important;
+}
+
+.nav-tabs > li.active > a {
+    background: rgba(0, 255, 0, 0.2) !important;
+    border-color: #00ff00 !important;
+}
+
+hr {
+    border-color: #00ff00 !important;
+    box-shadow: 0 0 10px #00ff00 !important;
+}
+
+#footer {
+    background: rgba(0, 0, 0, 0.8) !important;
+    color: #00ff00 !important;
+    text-align: center !important;
+    padding: 20px !important;
+    margin-top: 50px !important;
+}
+
+.page {
+    transition: transform 0.3s !important;
+    margin: 20px 0 !important;
+    padding: 20px !important;
+    border: 2px solid #00ff00 !important;
+    border-radius: 10px !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.page:hover {
+    transform: translateX(10px) !important;
+    background: rgba(0, 255, 0, 0.1) !important;
+}
+
+button, .btn {
+    background: transparent !important;
+    border: 2px solid #00ff00 !important;
+    color: #00ff00 !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    transition: all 0.3s !important;
+}
+
+button:hover, .btn:hover {
+    background: rgba(0, 255, 0, 0.2) !important;
+    box-shadow: 0 0 15px #00ff00 !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px !important;
+    background: #000 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ff00 !important;
+    border-radius: 5px !important;
+}
+
+::selection {
+    background: rgba(0, 255, 0, 0.3) !important;
+    color: #fff !important;
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datavault-cli"
+version = "0.1.0"
+description = "AI-powered data analysis tool"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "click>=8.0.0",
+    "openai>=1.0.0",
+    "python-dotenv>=0.19.0"
+]
+
+[project.scripts]
+datavault = "ai_analyzer.cli:cli"
+
+[tool.setuptools]
+package-dir = {"" = "src"}

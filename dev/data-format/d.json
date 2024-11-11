@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "sources": [
+    {
+      "id": "scrape_this_site",
+      "url": "https://www.scrapethissite.com/pages/",
+      "last_fetched": "2024-11-10T13:01:10.083676Z",
+      "fetch_frequency": "daily",
+      "data_format": "html",
+      "storage_path": "data/scrape_this_site",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+      },
+      "enabled": true,
+      "parser": "html"
+    }
+  ]
+}

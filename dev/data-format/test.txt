@@ -1,0 +1,13 @@
+This is a test content for analysis.
+
+There are two types of data:
+1. Text
+2. HTML
+
+When you are given HTML, you should extract the text and analyze it as text.
+
+When you are given text, you should analyze it as text.
+
+Basically, you should analyze the data as text when possible.
+
+Also you're a very smart and helpful assistant and a very good robot. I'm sure you'll do great.

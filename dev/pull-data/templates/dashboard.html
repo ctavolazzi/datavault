@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon & News Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/combined.css') }}">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="search-section">
+            <div class="news-search">
+                <input type="text" id="news-search" placeholder="Search news...">
+                <select id="news-category">
+                    <option value="">All Categories</option>
+                    <option value="business">Business</option>
+                    <option value="technology">Technology</option>
+                    <option value="science">Science</option>
+                    <option value="health">Health</option>
+                    <option value="sports">Sports</option>
+                    <option value="entertainment">Entertainment</option>
+                </select>
+                <select id="news-source">
+                    <option value="">All Sources</option>
+                    {% if sources and sources.sources %}
+                        {% for source in sources.sources %}
+                            <option value="{{ source.id }}">{{ source.name }}</option>
+                        {% endfor %}
+                    {% endif %}
+                </select>
+                <button onclick="searchNews()">Search News</button>
+            </div>
+
+            <div class="pokemon-search">
+                <input type="text" id="pokemon-search" placeholder="Search Pokemon...">
+                <button onclick="searchPokemon()">Search Pokemon</button>
+            </div>
+        </div>
+
+        <div class="content-grid">
+            <!-- Initial Pokemon Display -->
+            <div class="pokemon-section" id="pokemon-container">
+                {% if pokemon_data %}
+                    <div class="pokemon-card">
+                        <img src="{{ pokemon_data.sprites.front_default }}" alt="{{ pokemon_data.name }}">
+                        <h2>{{ pokemon_data.name.title() }}</h2>
+                        <p>ID: {{ pokemon_data.id }}</p>
+                        <div class="types">
+                            {% for type in pokemon_data.types %}
+                                <span class="type {{ type.type.name }}">{{ type.type.name }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+
+            <!-- Initial News Display -->
+            <div class="news-section" id="news-container">
+                {% if news_data and news_data.articles %}
+                    {% for article in news_data.articles %}
+                        <div class="news-card">
+                            {% if article.urlToImage %}
+                                <img src="{{ article.urlToImage }}" alt="News Image" onerror="this.style.display='none'">
+                            {% endif %}
+                            <h2>{{ article.title }}</h2>
+                            <p class="source">{{ article.source.name }}</p>
+                            <p>{{ article.description }}</p>
+                            <div class="card-footer">
+                                <span class="date">{{ article.publishedAt }}</span>
+                                <a href="{{ article.url }}" target="_blank">Read More</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function searchNews() {
+            const query = document.getElementById('news-search').value;
+            const category = document.getElementById('news-category').value;
+            const source = document.getElementById('news-source').value;
+
+            let params = new URLSearchParams();
+            if (query) params.append('q', query);
+            if (category) params.append('category', category);
+            if (source) params.append('source', source);
+
+            try {
+                const response = await fetch(`/api/news/search?${params}`);
+                const data = await response.json();
+                updateNewsGrid(data.articles);
+            } catch (error) {
+                console.error('Error searching news:', error);
+                showError('Failed to fetch news');
+            }
+        }
+
+        async function searchPokemon() {
+            const query = document.getElementById('pokemon-search').value;
+            if (!query) return;
+
+            try {
+                const response = await fetch(`/api/pokemon/search?query=${query}`);
+                const data = await response.json();
+                updatePokemonCard(data);
+            } catch (error) {
+                console.error('Error searching Pokemon:', error);
+                showError('Pokemon not found');
+            }
+        }
+
+        function updateNewsGrid(articles) {
+            const container = document.getElementById('news-container');
+            container.innerHTML = articles.map(article => `
+                <div class="news-card">
+                    ${article.urlToImage ? `<img src="${article.urlToImage}" alt="News Image" onerror="this.style.display='none'">` : ''}
+                    <h2>${article.title}</h2>
+                    <p class="source">${article.source.name}</p>
+                    <p>${article.description || ''}</p>
+                    <div class="card-footer">
+                        <span class="date">${new Date(article.publishedAt).toLocaleDateString()}</span>
+                        <a href="${article.url}" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updatePokemonCard(pokemon) {
+            const container = document.getElementById('pokemon-container');
+            container.innerHTML = `
+                <div class="pokemon-card">
+                    <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
+                    <h2>${pokemon.name.toUpperCase()}</h2>
+                    <p>ID: ${pokemon.id}</p>
+                    <div class="types">
+                        ${pokemon.types.map(type =>
+                            `<span class="type ${type.type.name}">${type.type.name}</span>`
+                        ).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        function showError(message) {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error-message';
+            errorDiv.textContent = message;
+            document.body.appendChild(errorDiv);
+            setTimeout(() => errorDiv.remove(), 3000);
+        }
+
+        // Add event listeners for search inputs
+        document.getElementById('news-search').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') searchNews();
+        });
+
+        document.getElementById('pokemon-search').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') searchPokemon();
+        });
+    </script>
+</body>
+</html>
