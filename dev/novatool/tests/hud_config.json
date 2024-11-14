@@ -1,0 +1,35 @@
+{
+  "watch_file": "/Users/ctavolazzi/Code/datavault/telephone_game.log",
+  "title": {
+    "text": "AI Telephone Game Monitor",
+    "style": "bold white",
+    "prefix": "🎮 "
+  },
+  "status": {
+    "waiting": {
+      "text": "Waiting for messages...",
+      "style": "dim",
+      "spinner": true
+    },
+    "processing": {
+      "text": "Processing query...",
+      "style": "yellow",
+      "spinner": true
+    },
+    "active": {
+      "text": "Active",
+      "style": "green",
+      "prefix": "• "
+    }
+  },
+  "layout": {
+    "game_status": {
+      "title": "Game Status",
+      "style": "blue"
+    },
+    "message_history": {
+      "title": "Message History",
+      "style": "blue"
+    }
+  }
+}

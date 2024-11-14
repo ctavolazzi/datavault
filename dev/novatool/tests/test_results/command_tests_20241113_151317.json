@@ -1,0 +1,72 @@
+{
+  "timestamp": "2024-11-13T15:13:26.906973",
+  "total_commands": 8,
+  "successful": 0,
+  "failed": 8,
+  "results": [
+    {
+      "command": "list",
+      "timestamp": "2024-11-13T15:13:17.416919",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 12, in <module>\n    from ..utils.environment import load_environment\nModuleNotFoundError: No module named 'novatool.utils.environment'",
+      "duration": 1.042758
+    },
+    {
+      "command": "list --path .",
+      "timestamp": "2024-11-13T15:13:18.464514",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 12, in <module>\n    from ..utils.environment import load_environment\nModuleNotFoundError: No module named 'novatool.utils.environment'",
+      "duration": 1.117788
+    },
+    {
+      "command": "list --all --show-size",
+      "timestamp": "2024-11-13T15:13:19.586553",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 12, in <module>\n    from ..utils.environment import load_environment\nModuleNotFoundError: No module named 'novatool.utils.environment'",
+      "duration": 1.222597
+    },
+    {
+      "command": "news --topic technology --limit 3",
+      "timestamp": "2024-11-13T15:13:20.814722",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 12, in <module>\n    from ..utils.environment import load_environment\nModuleNotFoundError: No module named 'novatool.utils.environment'",
+      "duration": 1.797394
+    },
+    {
+      "command": "news --topic science --ai-service ollama",
+      "timestamp": "2024-11-13T15:13:22.616177",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 12, in <module>\n    from ..utils.environment import load_environment\nModuleNotFoundError: No module named 'novatool.utils.environment'",
+      "duration": 1.140805
+    },
+    {
+      "command": "project status",
+      "timestamp": "2024-11-13T15:13:23.761136",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 12, in <module>\n    from ..utils.environment import load_environment\nModuleNotFoundError: No module named 'novatool.utils.environment'",
+      "duration": 1.080301
+    },
+    {
+      "command": "content scan",
+      "timestamp": "2024-11-13T15:13:24.845794",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 12, in <module>\n    from ..utils.environment import load_environment\nModuleNotFoundError: No module named 'novatool.utils.environment'",
+      "duration": 1.033105
+    },
+    {
+      "command": "ai 'What is Python?'",
+      "timestamp": "2024-11-13T15:13:25.883239",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 12, in <module>\n    from ..utils.environment import load_environment\nModuleNotFoundError: No module named 'novatool.utils.environment'",
+      "duration": 1.019564
+    }
+  ]
+}

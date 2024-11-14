@@ -1,0 +1,64 @@
+{
+  "timestamp": "2024-11-13T14:12:56.192160",
+  "total_commands": 7,
+  "successful": 4,
+  "failed": 3,
+  "results": [
+    {
+      "command": "nova list",
+      "timestamp": "2024-11-13T14:12:51.764671",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env",
+      "error": "",
+      "duration": 1.079264
+    },
+    {
+      "command": "nova list --path .",
+      "timestamp": "2024-11-13T14:12:52.845875",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env",
+      "error": "",
+      "duration": 1.161764
+    },
+    {
+      "command": "nova news --topic technology --limit 3",
+      "timestamp": "2024-11-13T14:12:54.007686",
+      "status": "error",
+      "output": "",
+      "error": "Missing required API keys: NEWS_API_KEY, OPENAI_API_KEY",
+      "duration": 0.000945
+    },
+    {
+      "command": "nova news --topic science --ai-service ollama",
+      "timestamp": "2024-11-13T14:12:54.008649",
+      "status": "error",
+      "output": "",
+      "error": "Missing required API keys: NEWS_API_KEY, OPENAI_API_KEY",
+      "duration": 0.000507
+    },
+    {
+      "command": "nova project status",
+      "timestamp": "2024-11-13T14:12:54.009171",
+      "status": "success",
+      "output": "Checking project status...",
+      "error": "",
+      "duration": 1.072843
+    },
+    {
+      "command": "nova content scan",
+      "timestamp": "2024-11-13T14:12:55.082286",
+      "status": "success",
+      "output": "Scanning content in ....",
+      "error": "",
+      "duration": 1.109309
+    },
+    {
+      "command": "nova ai 'What is Python?'",
+      "timestamp": "2024-11-13T14:12:56.191651",
+      "status": "error",
+      "output": "",
+      "error": "Missing required API keys: NEWS_API_KEY, OPENAI_API_KEY",
+      "duration": 0.000494
+    }
+  ]
+}

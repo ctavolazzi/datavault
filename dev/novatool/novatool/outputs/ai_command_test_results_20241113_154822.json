@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Basic Question",
+    "prompt": "What is Python?",
+    "error": "1",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 147, in handle_ai\n    if total_elapsed > elapsed + 1:  # If initialization took more than 1 second\nUnboundLocalError: local variable 'elapsed' referenced before assignment\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/tests/test_ai_commands.py\", line 88, in run_ai_command_tests\n    response = handle_ai(\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 183, in handle_ai\n    raise typer.Exit(1)\nclick.exceptions.Exit: 1\n",
+    "success": false,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "With Save Flag",
+    "prompt": "What are the benefits of AI?",
+    "error": "1",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 147, in handle_ai\n    if total_elapsed > elapsed + 1:  # If initialization took more than 1 second\nUnboundLocalError: local variable 'elapsed' referenced before assignment\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/tests/test_ai_commands.py\", line 88, in run_ai_command_tests\n    response = handle_ai(\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 183, in handle_ai\n    raise typer.Exit(1)\nclick.exceptions.Exit: 1\n",
+    "success": false,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": true,
+      "no_history": false
+    }
+  },
+  {
+    "name": "Custom System Prompt",
+    "prompt": "Tell me a joke",
+    "error": "1",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 147, in handle_ai\n    if total_elapsed > elapsed + 1:  # If initialization took more than 1 second\nUnboundLocalError: local variable 'elapsed' referenced before assignment\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/tests/test_ai_commands.py\", line 88, in run_ai_command_tests\n    response = handle_ai(\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 183, in handle_ai\n    raise typer.Exit(1)\nclick.exceptions.Exit: 1\n",
+    "success": false,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a funny assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "OpenAI Provider",
+    "prompt": "What's the meaning of life?",
+    "error": "1",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 147, in handle_ai\n    if total_elapsed > elapsed + 1:  # If initialization took more than 1 second\nUnboundLocalError: local variable 'elapsed' referenced before assignment\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/tests/test_ai_commands.py\", line 88, in run_ai_command_tests\n    response = handle_ai(\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 183, in handle_ai\n    raise typer.Exit(1)\nclick.exceptions.Exit: 1\n",
+    "success": false,
+    "options": {
+      "provider": "openai",
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "No History",
+    "prompt": "This shouldn't be saved",
+    "error": "1",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 147, in handle_ai\n    if total_elapsed > elapsed + 1:  # If initialization took more than 1 second\nUnboundLocalError: local variable 'elapsed' referenced before assignment\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/tests/test_ai_commands.py\", line 88, in run_ai_command_tests\n    response = handle_ai(\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 183, in handle_ai\n    raise typer.Exit(1)\nclick.exceptions.Exit: 1\n",
+    "success": false,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": true
+    }
+  }
+]

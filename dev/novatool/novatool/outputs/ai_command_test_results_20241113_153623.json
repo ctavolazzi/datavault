@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Basic Question",
+    "prompt": "What is Python?",
+    "response": " Python is a widely used high-level, general-purpose programming language. It was created by Guido van Rossum and first released in 1991. Python's design philosophy emphasizes code readability with its notable use of significant whitespace.",
+    "duration": 7.744487,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "With Save Flag",
+    "prompt": "What are the benefits of AI?",
+    "response": " Sure, I'd be happy to help with that! Here are some key benefits and advantages of Artificial Intelligence (AI):\n1. Improved Decision Making: AI can analyze vast amounts of data quickly and accurately, enabling organizations to make informed decisions in real-time. This is particularly useful for businesses trying to optimize their operations or identify new opportunities based on data analysis.\n2. Enhanced Productivity: By automating repetitive tasks and processes, AI helps employees focus on higher value activities, leading to increased productivity and efficiency across various industries. \n3. Predictive Analytics: AI can learn from historical data and make predictions about future trends, helping businesses anticipate changes in the market and adapt their strategies accordingly. This is particularly useful for companies that operate in highly dynamic environments.\n4. Improved Customer Experience: AI-powered chatbots, virtual assistants, and recommendation systems can provide personalized experiences tailored to individual customer needs or preferences, leading to increased customer satisfaction and loyalty. \n5. Cost Savings: By automating processes and reducing manual errors, AI can lead to cost savings for organizations in the long run. Additionally, some AI solutions offer pay-as-you-go pricing models that allow businesses to only pay for what they use, further lowering costs.\n6. New Business Models: AI is enabling new business models such as automated marketplaces and subscription services, which are disrupting traditional industries and creating entirely new markets. \n7. Innovation: By combining advanced algorithms with data from various sources, AI drives innovation in fields like healthcare, transportation, finance, manufacturing, and many others, leading to breakthroughs and innovations that transform entire industries.",
+    "duration": 45.24811,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": true,
+      "no_history": false
+    }
+  },
+  {
+    "name": "Custom System Prompt",
+    "prompt": "Tell me a joke",
+    "response": " Sure, here's one: \"Why did the scarecrow win an award? Because he was outstanding in his field!\"",
+    "duration": 4.686862,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a funny assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "OpenAI Provider",
+    "prompt": "What's the meaning of life?",
+    "error": "1",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 116, in handle_ai\n    response = ask_openai(prompt=prompt, model=model, system=system)\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 192, in ask_openai\n    api_key = get_openai_key()\nNameError: name 'get_openai_key' is not defined\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/tests/test_ai_commands.py\", line 81, in run_ai_command_tests\n    response = handle_ai(\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py\", line 155, in handle_ai\n    raise typer.Exit(1)\nclick.exceptions.Exit: 1\n",
+    "success": false,
+    "options": {
+      "provider": "openai",
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "No History",
+    "prompt": "This shouldn't be saved",
+    "response": " I apologize for any inconvenience, but it seems like you were unable to save your document. Could you please provide more context or details about what went wrong?",
+    "duration": 5.598122,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": true
+    }
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "timestamp": "2024-11-13T15:05:16.788610",
+  "total_commands": 8,
+  "successful": 8,
+  "failed": 0,
+  "results": [
+    {
+      "command": "list",
+      "timestamp": "2024-11-13T15:05:06.298284",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault\n\nFiles and Directories:\n\ud83d\udcc4 analyze_project.py\n\ud83d\udcc4 file_analysis.log\n\ud83d\udcc4 project_structure.yaml\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc4 README.md\n\ud83d\udcc4 setup.py\n\ud83d\udcc1 build\n\ud83d\udcc1 datasets\n\ud83d\udcc1 datavault\n\ud83d\udcc1 dev\n\ud83d\udcc1 dist\n\ud83d\udcc1 docs\n\ud83d\udcc1 output\n\ud83d\udcc1 src\n\ud83d\udcc1 tests\n\ud83d\udcc1 viz_output\n\nFile list saved to: \n/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/outputs/file_list_20241113_1505\n07.json",
+      "error": "",
+      "duration": 1.141622
+    },
+    {
+      "command": "list --path .",
+      "timestamp": "2024-11-13T15:05:07.444002",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault\n\nFiles and Directories:\n\ud83d\udcc4 analyze_project.py\n\ud83d\udcc4 file_analysis.log\n\ud83d\udcc4 project_structure.yaml\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc4 README.md\n\ud83d\udcc4 setup.py\n\ud83d\udcc1 build\n\ud83d\udcc1 datasets\n\ud83d\udcc1 datavault\n\ud83d\udcc1 dev\n\ud83d\udcc1 dist\n\ud83d\udcc1 docs\n\ud83d\udcc1 output\n\ud83d\udcc1 src\n\ud83d\udcc1 tests\n\ud83d\udcc1 viz_output\n\nFile list saved to: \n/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/outputs/file_list_20241113_1505\n08.json",
+      "error": "",
+      "duration": 1.119382
+    },
+    {
+      "command": "list --all --show-size",
+      "timestamp": "2024-11-13T15:05:08.566892",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault\n\nFiles and Directories:\n\ud83d\udcc4 analyze_project.py (19.1KB)\n\ud83d\udcc4 file_analysis.log (105.6KB)\n\ud83d\udcc4 project_structure.yaml (1.8KB)\n\ud83d\udcc4 pytest.ini (67.0B)\n\ud83d\udcc4 README.md (2.4KB)\n\ud83d\udcc4 setup.py (2.9KB)\n\ud83d\udcc1 build\n\ud83d\udcc1 datasets\n\ud83d\udcc1 datavault\n\ud83d\udcc1 dev\n\ud83d\udcc1 dist\n\ud83d\udcc1 docs\n\ud83d\udcc1 output\n\ud83d\udcc1 src\n\ud83d\udcc1 tests\n\ud83d\udcc1 viz_output\n\nHidden files and directories:\n\ud83d\udcc4 .gitignore (414.0B)\n\ud83d\udcc1 .git\n\ud83d\udcc1 .index\n\ud83d\udcc1 .pytest_cache\n\nFile list saved to: \n/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/outputs/file_list_20241113_1505\n09.json",
+      "error": "",
+      "duration": 1.200405
+    },
+    {
+      "command": "news --topic technology --limit 3",
+      "timestamp": "2024-11-13T15:05:09.773024",
+      "status": "success",
+      "output": "Fetching newsabout technology...\nNo headlines found.",
+      "error": "",
+      "duration": 1.978047
+    },
+    {
+      "command": "news --topic science --ai-service ollama",
+      "timestamp": "2024-11-13T15:05:11.754453",
+      "status": "success",
+      "output": "Fetching newsabout science...\n\nLatest Headlines:\n\n1. After the Pandemic, Alcohol Use Remains Elevated - Neuroscience News\n   Source: Neurosciencenews.com\n   U.S. alcohol use increased during the COVID-19 pandemic and has stayed elevated \npost-pandemic, posing serious health risks.\n\n2. Beaver Moon 2024: See the final 'supermoon' of the year rise next to the 'Seven \nSisters' - Livescience.com\n   Source: Live Science\n   The year's fourth and final supermoon shines next to the spectacular 'Seven \nSisters' stars this week. Here's how to see November's full Beaver Moon rise.\n\n3. Humans Had Sex With At Least Three Different Denisovan Populations - IFLScience\n   Source: IFLScience\n   Some people in Oceania carry up to 5 percent Denisovan DNA.\n\nGenerating summary using ollama...\nError: model 'mistral' not found",
+      "error": "",
+      "duration": 1.549565
+    },
+    {
+      "command": "project status",
+      "timestamp": "2024-11-13T15:05:13.309448",
+      "status": "success",
+      "output": "Checking project status...",
+      "error": "",
+      "duration": 1.174999
+    },
+    {
+      "command": "content scan",
+      "timestamp": "2024-11-13T15:05:14.486947",
+      "status": "success",
+      "output": "Scanning content in ....",
+      "error": "",
+      "duration": 1.183591
+    },
+    {
+      "command": "ai 'What is Python?'",
+      "timestamp": "2024-11-13T15:05:15.673088",
+      "status": "success",
+      "output": "\u256d\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Your Question \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256e\n\u2502                                                                                    \u2502\n\u2502  What is Python?                                                                   \u2502\n\u2502                                                                                    \u2502\n\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256f\nError with mistral: model 'mistral' not found\n\u256d\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Error \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256e\n\u2502                                                                                    \u2502\n\u2502  Error: model 'mistral' not found                                                  \u2502\n\u2502                                                                                    \u2502\n\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256f",
+      "error": "",
+      "duration": 1.111285
+    }
+  ]
+}

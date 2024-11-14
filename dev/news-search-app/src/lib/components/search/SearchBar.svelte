@@ -4,16 +4,34 @@
     export let onSearch;
     let searchQuery = '';
     let showHistory = false;
+    let inputElement;
 
     function formatDate(dateString) {
         return new Date(dateString).toLocaleString();
     }
 
-    async function handleSubmit() {
+    function handleFocus(event) {
+        if ($searchStore.history.length > 0) {
+            showHistory = true;
+        }
+        if (searchQuery) {
+            event.target.select();
+        }
+    }
+
+    function handleBlur(event) {
+        const clickedHistoryDropdown = event.relatedTarget?.closest('.search-history-dropdown');
+        if (!clickedHistoryDropdown) {
+            showHistory = false;
+        }
+    }
+
+    function handleSubmit() {
         if (!searchQuery.trim()) return;
         showHistory = false;
-        await searchStore.addSearch(searchQuery.trim());
+        searchStore.addSearch(searchQuery.trim());
         onSearch(searchQuery.trim());
+        inputElement.blur();
     }
 
     function handleHistoryClick(query) {
@@ -31,11 +49,13 @@
 <div class="search-wrapper">
     <div class="search-container">
         <input
+            bind:this={inputElement}
             type="text"
             class="search-input"
             bind:value={searchQuery}
             placeholder="Search for news..."
-            on:focus={() => showHistory = true}
+            on:focus={handleFocus}
+            on:blur={handleBlur}
             on:keydown={(e) => e.key === 'Enter' && handleSubmit()}
         />
         <button

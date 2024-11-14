@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Basic Question",
+    "prompt": "What is Python?",
+    "response": "Python is a popular, high-level programming language used for web development and data analysis among other things",
+    "duration": 3.975747,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "With Save Flag",
+    "prompt": "What are the benefits of AI?",
+    "response": "Improved efficiency, enhanced decision-making, personalized services, and continuous learning capabilities",
+    "duration": 3.581577,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": true,
+      "no_history": false
+    }
+  },
+  {
+    "name": "Custom System Prompt",
+    "prompt": "Tell me a joke",
+    "response": "Sure, here's one: \"Why don't scientists trust atoms? Because they make up everything!\"",
+    "duration": 9.877847,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a funny assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "OpenAI Provider",
+    "prompt": "What's the meaning of life?",
+    "response": "The meaning of life is a profound philosophical question that has been contemplated by thinkers, writers, and scientists throughout history. There are many perspectives on this topic, and the answer can vary greatly depending on cultural, religious, and individual beliefs. Here are a few common interpretations:\n\n1. **Philosophical Perspectives**: Philosophers have debated the meaning of life for centuries. Existentialists, for example, often suggest that life has no inherent meaning, and it's up to each individual to create their own purpose.\n\n2. **Religious Views**: Many religions provide their own interpretations of life's meaning. For example, in Christianity, life may be seen as a journey towards fulfilling God's will and achieving eternal life with Him. In Buddhism, it might be about reaching enlightenment and escaping the cycle of suffering.\n\n3. **Scientific Understandings**: From a scientific viewpoint, life can be seen as a product of evolution, with the purpose of survival and reproduction. Some might argue that the meaning of life lies in understanding the universe and our place within it.\n\n4. **Personal Meaning**: On an individual level, many people find meaning through personal relationships, experiences, creativity, contributing to society, or pursuing passions and goals.\n\nUltimately, the meaning of life may be deeply personal and subjective, shaped by one's experiences, beliefs, and aspirations. It's a question that invites exploration and reflection, encouraging each person to seek their own answers.",
+    "duration": 4.651106,
+    "success": true,
+    "options": {
+      "provider": "openai",
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "No History",
+    "prompt": "This shouldn't be saved",
+    "response": "File not saved",
+    "duration": 6.847467,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": true
+    }
+  }
+]

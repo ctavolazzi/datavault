@@ -1,61 +1,48 @@
 import { writable } from 'svelte/store';
 
 function createSearchStore() {
-    const { subscribe, set, update } = writable({
+    // Initialize with session storage if available
+    const initialState = {
         history: [],
         loading: false,
         error: null
-    });
+    };
+
+    if (typeof window !== 'undefined') {
+        const sessionHistory = sessionStorage.getItem('searchHistory');
+        if (sessionHistory) {
+            initialState.history = JSON.parse(sessionHistory);
+        }
+    }
+
+    const { subscribe, set, update } = writable(initialState);
 
     return {
         subscribe,
-        addSearch: async (query) => {
-            update(state => ({ ...state, loading: true, error: null }));
-
-            try {
-                // Log the search to backend
-                await fetch('http://localhost:8000/api/log_search', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
+        addSearch: (query) => {
+            update(state => {
+                const newHistory = [
+                    {
+                        query,
+                        timestamp: new Date().toISOString()
                     },
-                    body: JSON.stringify({
-                        user_id: 'placeholder_user_id',
-                        query,
-                        timestamp: new Date().toISOString()
-                    })
-                });
+                    ...state.history
+                ].slice(0, 10);
 
-                // Update local history
-                update(state => ({
+                if (typeof window !== 'undefined') {
+                    sessionStorage.setItem('searchHistory', JSON.stringify(newHistory));
+                }
+
+                return {
                     ...state,
-                    history: [{
-                        query,
-                        timestamp: new Date().toISOString()
-                    }, ...state.history]
-                }));
-            } catch (error) {
-                update(state => ({ ...state, error: error.message }));
-            } finally {
-                update(state => ({ ...state, loading: false }));
-            }
-        },
-        loadHistory: async () => {
-            update(state => ({ ...state, loading: true, error: null }));
-
-            try {
-                const response = await fetch('http://localhost:8000/api/search_history/placeholder_user_id');
-                if (!response.ok) throw new Error('Failed to fetch search history');
-
-                const history = await response.json();
-                update(state => ({ ...state, history }));
-            } catch (error) {
-                update(state => ({ ...state, error: error.message }));
-            } finally {
-                update(state => ({ ...state, loading: false }));
-            }
+                    history: newHistory
+                };
+            });
         },
         clearHistory: () => {
+            if (typeof window !== 'undefined') {
+                sessionStorage.removeItem('searchHistory');
+            }
             update(state => ({ ...state, history: [] }));
         }
     };

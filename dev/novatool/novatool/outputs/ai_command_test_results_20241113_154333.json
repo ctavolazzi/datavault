@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Basic Question",
+    "prompt": "What is Python?",
+    "response": "Python is a versatile, high-level programming language used for web development, data analysis, artificial intelligence, and automation tasks.",
+    "duration": 7.392824,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "With Save Flag",
+    "prompt": "What are the benefits of AI?",
+    "response": "Benefits include increased efficiency, improved decision-making, enhanced customer service, and expanded capabilities in various industries",
+    "duration": 3.398079,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": true,
+      "no_history": false
+    }
+  },
+  {
+    "name": "Custom System Prompt",
+    "prompt": "Tell me a joke",
+    "response": "* Here's one for you: \"Why did the tomato turn red? Because it saw the salad dressing!\"",
+    "duration": 7.695834,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a funny assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "OpenAI Provider",
+    "prompt": "What's the meaning of life?",
+    "response": "The meaning of life is a deeply philosophical question and can vary widely depending on individual beliefs, cultural backgrounds, and personal experiences. Different perspectives include:\n\n1. **Religious Views**: Many religions propose that the meaning of life is to serve a higher power, follow spiritual teachings, and seek an afterlife or enlightenment.\n\n2. **Philosophical Perspectives**: Philosophers have debated this question for centuries. Existentialists, for example, argue that life has no inherent meaning, and it is up to each individual to create their own purpose. Utilitarians might suggest that the meaning of life is to maximize happiness and reduce suffering.\n\n3. **Personal Fulfillment**: Many people find meaning through personal experiences, relationships, achievements, and the pursuit of passion and creativity.\n\n4. **Contribution to Society**: Some believe that the meaning of life lies in making a positive impact on others and contributing to the greater good of humanity.\n\nUltimately, the meaning of life is subjective, and each individual may arrive at their own understanding and interpretation based on their journey and reflections.",
+    "duration": 3.044645,
+    "success": true,
+    "options": {
+      "provider": "openai",
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "No History",
+    "prompt": "This shouldn't be saved",
+    "response": "Data not stored",
+    "duration": 4.924632,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": true
+    }
+  }
+]

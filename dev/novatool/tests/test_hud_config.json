@@ -1,0 +1,24 @@
+{
+  "states": {
+    "idle": {
+      "text": "Waiting for game to start...",
+      "style": "dim",
+      "prefix": "💤 "
+    },
+    "starting": {
+      "text": "Game starting...",
+      "style": "yellow bold",
+      "prefix": "🎮 "
+    },
+    "processing": {
+      "text": "Processing: {message}",
+      "style": "cyan",
+      "prefix": "⚙️ "
+    },
+    "response": {
+      "text": "Round {round}: {message}",
+      "style": "green",
+      "prefix": "✓ "
+    }
+  }
+}

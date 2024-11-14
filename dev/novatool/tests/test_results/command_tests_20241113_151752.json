@@ -1,0 +1,72 @@
+{
+  "timestamp": "2024-11-13T15:18:32.979920",
+  "total_commands": 8,
+  "successful": 7,
+  "failed": 1,
+  "results": [
+    {
+      "command": "list",
+      "timestamp": "2024-11-13T15:17:52.612294",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault\n\nFiles and Directories:\n\ud83d\udcc4 analyze_project.py\n\ud83d\udcc4 file_analysis.log\n\ud83d\udcc4 project_structure.yaml\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc4 README.md\n\ud83d\udcc4 setup.py\n\ud83d\udcc1 build\n\ud83d\udcc1 datasets\n\ud83d\udcc1 datavault\n\ud83d\udcc1 dev\n\ud83d\udcc1 dist\n\ud83d\udcc1 docs\n\ud83d\udcc1 output\n\ud83d\udcc1 src\n\ud83d\udcc1 tests\n\ud83d\udcc1 viz_output\n\nFile list saved to: \n/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/outputs/file_list_20241113_1517\n53.json",
+      "error": "",
+      "duration": 1.114999
+    },
+    {
+      "command": "list --path .",
+      "timestamp": "2024-11-13T15:17:53.731650",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault\n\nFiles and Directories:\n\ud83d\udcc4 analyze_project.py\n\ud83d\udcc4 file_analysis.log\n\ud83d\udcc4 project_structure.yaml\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc4 README.md\n\ud83d\udcc4 setup.py\n\ud83d\udcc1 build\n\ud83d\udcc1 datasets\n\ud83d\udcc1 datavault\n\ud83d\udcc1 dev\n\ud83d\udcc1 dist\n\ud83d\udcc1 docs\n\ud83d\udcc1 output\n\ud83d\udcc1 src\n\ud83d\udcc1 tests\n\ud83d\udcc1 viz_output\n\nFile list saved to: \n/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/outputs/file_list_20241113_1517\n54.json",
+      "error": "",
+      "duration": 1.140564
+    },
+    {
+      "command": "list --all --show-size",
+      "timestamp": "2024-11-13T15:17:54.876594",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault\n\nFiles and Directories:\n\ud83d\udcc4 analyze_project.py (19.1KB)\n\ud83d\udcc4 file_analysis.log (105.6KB)\n\ud83d\udcc4 project_structure.yaml (1.8KB)\n\ud83d\udcc4 pytest.ini (67.0B)\n\ud83d\udcc4 README.md (2.4KB)\n\ud83d\udcc4 setup.py (2.9KB)\n\ud83d\udcc1 build\n\ud83d\udcc1 datasets\n\ud83d\udcc1 datavault\n\ud83d\udcc1 dev\n\ud83d\udcc1 dist\n\ud83d\udcc1 docs\n\ud83d\udcc1 output\n\ud83d\udcc1 src\n\ud83d\udcc1 tests\n\ud83d\udcc1 viz_output\n\nHidden files and directories:\n\ud83d\udcc4 .gitignore (414.0B)\n\ud83d\udcc1 .git\n\ud83d\udcc1 .index\n\ud83d\udcc1 .pytest_cache\n\nFile list saved to: \n/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/outputs/file_list_20241113_1517\n55.json",
+      "error": "",
+      "duration": 1.173901
+    },
+    {
+      "command": "news --topic technology --limit 3",
+      "timestamp": "2024-11-13T15:17:56.055328",
+      "status": "success",
+      "output": "Fetching newsabout technology...\nNo headlines found.",
+      "error": "",
+      "duration": 1.551397
+    },
+    {
+      "command": "news --topic science --ai-service ollama",
+      "timestamp": "2024-11-13T15:17:57.609875",
+      "status": "success",
+      "output": "Fetching newsabout science...\n\nLatest Headlines:\n\n1. After the Pandemic, Alcohol Use Remains Elevated - Neuroscience News\n   Source: Neurosciencenews.com\n   U.S. alcohol use increased during the COVID-19 pandemic and has stayed elevated \npost-pandemic, posing serious health risks.\n\n2. Humans Had Sex With At Least Three Different Denisovan Populations - IFLScience\n   Source: IFLScience\n   Some people in Oceania carry up to 5 percent Denisovan DNA.\n\nGenerating summary using ollama...\nModel nemotron-mini not found, falling back to llama3.2\n\nAI Summary Report\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nGenerated on 2024-11-13 15:18:29\nUsing ollama service with model llama3.2\n\nHere's a summary of the two news headlines:\n\n**Brief Overview**\nThe report highlights two concerning trends related to human health and behavior \nduring the post-pandemic era. The first topic involves increased alcohol use in the \nUS, while the second discusses the genetic legacy of Denisovan populations.\n\n**Key Points**\n\n1. **Elevated Alcohol Use**: In the United States, alcohol use has remained elevated \nsince the COVID-19 pandemic, posing serious health risks to individuals and \ncommunities.\n2. **Denisovan Genetic Legacy**: Research suggests that some people in Oceania carry \nup to 5% Denisovan DNA, indicating that they may have interbred with Denisovan \npopulations in the past.\n\n**Notable Trends or Patterns**\n\n1. **Long-term Health Consequences**: The elevated alcohol use trend highlights the \nneed for sustained public health efforts to address substance abuse and related health\nrisks.\n2. **Genetic Legacy of Human Migration**: The discovery of Denisovan DNA in modern \nhumans underscores the complex and interconnected nature of human migration, \nadmixture, and genetic diversity.\n\nOverall, these two headlines shed light on pressing concerns affecting human health \nand behavior during a time of global uncertainty.\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+      "error": "",
+      "duration": 32.096371
+    },
+    {
+      "command": "project status",
+      "timestamp": "2024-11-13T15:18:29.717081",
+      "status": "success",
+      "output": "Checking project status...",
+      "error": "",
+      "duration": 1.117657
+    },
+    {
+      "command": "content scan",
+      "timestamp": "2024-11-13T15:18:30.837459",
+      "status": "success",
+      "output": "Scanning content in ....",
+      "error": "",
+      "duration": 1.091707
+    },
+    {
+      "command": "ai 'What is Python?'",
+      "timestamp": "2024-11-13T15:18:31.931994",
+      "status": "error",
+      "output": "\u274c Error: name 'check_ollama_available' is not defined",
+      "error": "",
+      "duration": 1.044892
+    }
+  ]
+}

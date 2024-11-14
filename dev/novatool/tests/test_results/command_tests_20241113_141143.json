@@ -1,0 +1,51 @@
+[
+  {
+    "command": "nova list",
+    "timestamp": "2024-11-13T14:11:43.386155",
+    "status": "success",
+    "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env\n",
+    "error": ""
+  },
+  {
+    "command": "nova list --path .",
+    "timestamp": "2024-11-13T14:11:44.870315",
+    "status": "success",
+    "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env\n",
+    "error": ""
+  },
+  {
+    "command": "nova news --topic technology --limit 3",
+    "timestamp": "2024-11-13T14:11:45.908407",
+    "status": "success",
+    "output": "Fetching newsabout technology...\nError: expected string or bytes-like object\n",
+    "error": ""
+  },
+  {
+    "command": "nova news --topic science --ai-service ollama",
+    "timestamp": "2024-11-13T14:11:47.115876",
+    "status": "success",
+    "output": "Fetching newsabout science...\nError: expected string or bytes-like object\n",
+    "error": ""
+  },
+  {
+    "command": "nova project status",
+    "timestamp": "2024-11-13T14:11:48.190652",
+    "status": "success",
+    "output": "Checking project status...\n",
+    "error": ""
+  },
+  {
+    "command": "nova content scan",
+    "timestamp": "2024-11-13T14:11:49.210007",
+    "status": "success",
+    "output": "Scanning content in ....\n",
+    "error": ""
+  },
+  {
+    "command": "nova ai 'What is Python?'",
+    "timestamp": "2024-11-13T14:11:50.191917",
+    "status": "success",
+    "output": "Error: Missing required API keys: NEWS_API_KEY\n",
+    "error": ""
+  }
+]

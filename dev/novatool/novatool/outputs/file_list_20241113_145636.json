@@ -1,0 +1,11 @@
+{
+  "path": "/Users/ctavolazzi/Code/datavault/dev/quartz-tunnel",
+  "include_hidden": false,
+  "files": [
+    "content_map.json",
+    "content_scanner.py",
+    "generate_content.py",
+    "quatz_sync.py"
+  ],
+  "timestamp": "20241113_145636"
+}

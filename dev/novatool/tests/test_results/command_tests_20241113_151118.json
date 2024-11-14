@@ -1,0 +1,72 @@
+{
+  "timestamp": "2024-11-13T15:11:27.043558",
+  "total_commands": 8,
+  "successful": 0,
+  "failed": 8,
+  "results": [
+    {
+      "command": "list",
+      "timestamp": "2024-11-13T15:11:18.281814",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\nImportError: cannot import name 'handle_ai' from 'novatool.commands.ai_cmd' (/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py)",
+      "duration": 1.170511
+    },
+    {
+      "command": "list --path .",
+      "timestamp": "2024-11-13T15:11:19.456678",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\nImportError: cannot import name 'handle_ai' from 'novatool.commands.ai_cmd' (/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py)",
+      "duration": 1.073632
+    },
+    {
+      "command": "list --all --show-size",
+      "timestamp": "2024-11-13T15:11:20.534927",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\nImportError: cannot import name 'handle_ai' from 'novatool.commands.ai_cmd' (/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py)",
+      "duration": 1.134293
+    },
+    {
+      "command": "news --topic technology --limit 3",
+      "timestamp": "2024-11-13T15:11:21.673226",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\nImportError: cannot import name 'handle_ai' from 'novatool.commands.ai_cmd' (/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py)",
+      "duration": 1.138071
+    },
+    {
+      "command": "news --topic science --ai-service ollama",
+      "timestamp": "2024-11-13T15:11:22.815303",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\nImportError: cannot import name 'handle_ai' from 'novatool.commands.ai_cmd' (/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py)",
+      "duration": 1.051872
+    },
+    {
+      "command": "project status",
+      "timestamp": "2024-11-13T15:11:23.871231",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\nImportError: cannot import name 'handle_ai' from 'novatool.commands.ai_cmd' (/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py)",
+      "duration": 1.01699
+    },
+    {
+      "command": "content scan",
+      "timestamp": "2024-11-13T15:11:24.892211",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\nImportError: cannot import name 'handle_ai' from 'novatool.commands.ai_cmd' (/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py)",
+      "duration": 1.022381
+    },
+    {
+      "command": "ai 'What is Python?'",
+      "timestamp": "2024-11-13T15:11:25.918564",
+      "status": "error",
+      "output": "",
+      "error": "Traceback (most recent call last):\n  File \"/Users/ctavolazzi/.pyenv/versions/3.10.13/bin/nova\", line 5, in <module>\n    from novatool.tool_router import app\n  File \"/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/tool_router.py\", line 6, in <module>\n    from .commands.ai_cmd import handle_ai\nImportError: cannot import name 'handle_ai' from 'novatool.commands.ai_cmd' (/Users/ctavolazzi/Code/datavault/dev/novatool/novatool/commands/ai_cmd.py)",
+      "duration": 1.120794
+    }
+  ]
+}

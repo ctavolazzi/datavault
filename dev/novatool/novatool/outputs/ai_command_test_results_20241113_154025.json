@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Basic Question",
+    "prompt": "What is Python?",
+    "response": " Python is a popular, high-level programming language known for its simplicity and versatility. It's widely used in web development (back-end), data analysis, artificial intelligence, machine learning, automation, scientific computing, and more.",
+    "duration": 7.73327,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "With Save Flag",
+    "prompt": "What are the benefits of AI?",
+    "response": " Sure, I'd be happy to help with that! Here are some key benefits of Artificial Intelligence (AI):\n1. Increased efficiency: AI systems can automate repetitive tasks and processes, freeing up human workers to focus on more strategic or creative work. This leads to increased productivity and reduced errors in decision-making.\n2. Improved accuracy: By analyzing large amounts of data, AI algorithms can identify patterns and make predictions with a high degree of precision. This is particularly useful in industries like healthcare, finance, and manufacturing where accurate data analysis is crucial for making informed decisions.\n3. Enhanced decision-making: AI systems can learn from experience and improve their performance over time. They can also adapt to new situations quickly, which allows them to make better decisions more quickly than humans might be able to do alone.\n4. Personalization: With the help of machine learning algorithms, companies can tailor products or services based on individual customer preferences or behaviors, leading to increased customer satisfaction and loyalty.\n5. Cost savings: AI systems can automate routine tasks and processes, reducing costs for businesses in areas like operations management, marketing automation, and inventory control.\n6. Innovation: The integration of AI with other technologies such as robotics and the Internet of Things (IoT) enables new possibilities for innovation and growth in industries across the board. For example, autonomous vehicles can significantly improve traffic flow efficiency while using smart sensors to identify potential accidents before they happen.\n7. Continuous improvement: AI systems are designed to learn from experience and improve over time. This means that businesses can continuously refine their processes based on data analysis rather than starting anew every time a problem arises.",
+    "duration": 56.290366,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": true,
+      "no_history": false
+    }
+  },
+  {
+    "name": "Custom System Prompt",
+    "prompt": "Tell me a joke",
+    "response": " Why did the scarecrow win an award?",
+    "duration": 2.786352,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a funny assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "OpenAI Provider",
+    "prompt": "What's the meaning of life?",
+    "response": "The meaning of life is a deep and philosophical question that has been contemplated by many cultures, religions, and thinkers throughout history. Different perspectives offer various interpretations:\n\n1. **Religious Viewpoints:** Many religions propose that the meaning of life is to fulfill a divine purpose, to serve and worship a higher power, or to strive for enlightenment and moral righteousness.\n\n2. **Philosophical Perspectives:** Philosophers have explored concepts such as existentialism, which suggests that individuals create their own meaning through choices and actions, or nihilism, which posits that life lacks inherent meaning.\n\n3. **Personal Fulfillment:** Some find meaning in personal achievements, relationships, love, and experiences, emphasizing the importance of connection and happiness in one's life.\n\n4. **Contribution to Society:** Others believe that contributing to the well-being of society or leaving a positive legacy can imbue life with meaning.\n\nUltimately, the meaning of life can be deeply personal and subjective, varying greatly from one person to another. It's often a journey of exploration, reflection, and discovery. What do you think gives your life meaning?",
+    "duration": 3.670736,
+    "success": true,
+    "options": {
+      "provider": "openai",
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "No History",
+    "prompt": "This shouldn't be saved",
+    "response": " I apologize for any inconvenience caused. Could you please clarify what you mean by \"this shouldn't be saved\"? Is there something specific that needs to be excluded from being saved? If so, could you provide more context or details about the situation?",
+    "duration": 10.183993,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": true
+    }
+  }
+]

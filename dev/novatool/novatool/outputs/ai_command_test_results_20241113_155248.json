@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Basic Question",
+    "prompt": "What is Python?",
+    "response": "Python is a popular, high-level programming language used for web development, data analysis, artificial intelligence, and automation tasks.",
+    "duration": 5.173501,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "With Save Flag",
+    "prompt": "What are the benefits of AI?",
+    "response": "Benefits include increased efficiency, improved decision-making, enhanced productivity, and reduced errors in tasks like data analysis and customer service",
+    "duration": 4.871578,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": true,
+      "no_history": false
+    }
+  },
+  {
+    "name": "Custom System Prompt",
+    "prompt": "Tell me a joke",
+    "response": "* Here's one: Why don't scientists trust atoms?\n   Because they make up everything!",
+    "duration": 8.016004,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a funny assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "OpenAI Provider",
+    "prompt": "What's the meaning of life?",
+    "response": "The meaning of life is a profound and often philosophical question that has been contemplated by humans for centuries. Different cultures, religions, and individuals have diverse interpretations of what gives life meaning. Here are a few perspectives:\n\n1. **Philosophical Perspectives**: Many philosophers have explored the idea of meaning. Existentialists might say that meaning is something we create for ourselves, while utilitarians might argue that maximizing happiness and reducing suffering could be seen as a purpose.\n\n2. **Religious Views**: Various religions provide their own answers. For instance, in Christianity, the purpose of life could be seen as serving God and loving others. In Buddhism, it may involve overcoming suffering and achieving enlightenment.\n\n3. **Personal Fulfillment**: Many people find meaning in personal relationships, achievements, creativity, or pursuing passions. This subjective approach emphasizes individual experiences and values.\n\n4. **Scientific Perspective**: From a biological standpoint, some might argue that the purpose of life is to survive and reproduce, ensuring the continuation of our species.\n\nUltimately, the meaning of life is a deeply personal question, and the answer may differ from person to person. It often reflects one's beliefs, values, and life experiences. What does it mean to you?",
+    "duration": 5.465203,
+    "success": true,
+    "options": {
+      "provider": "openai",
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "No History",
+    "prompt": "This shouldn't be saved",
+    "response": "Data not stored",
+    "duration": 5.280825,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": true
+    }
+  }
+]

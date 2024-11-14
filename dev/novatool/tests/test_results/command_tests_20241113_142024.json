@@ -1,0 +1,64 @@
+{
+  "timestamp": "2024-11-13T14:21:35.660500",
+  "total_commands": 7,
+  "successful": 7,
+  "failed": 0,
+  "results": [
+    {
+      "command": "list",
+      "timestamp": "2024-11-13T14:20:24.149333",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env",
+      "error": "",
+      "duration": 1.118106
+    },
+    {
+      "command": "list --path .",
+      "timestamp": "2024-11-13T14:20:25.271030",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env",
+      "error": "",
+      "duration": 1.070795
+    },
+    {
+      "command": "news --topic technology --limit 3",
+      "timestamp": "2024-11-13T14:20:26.345239",
+      "status": "success",
+      "output": "Fetching newsabout technology...\nNo headlines found.",
+      "error": "",
+      "duration": 1.294689
+    },
+    {
+      "command": "news --topic science --ai-service ollama",
+      "timestamp": "2024-11-13T14:20:27.642791",
+      "status": "success",
+      "output": "Fetching newsabout science...\n\nLatest Headlines:\n\n1. After the Pandemic, Alcohol Use Remains Elevated - Neuroscience News\n   Source: Neurosciencenews.com\n   U.S. alcohol use increased during the COVID-19 pandemic and has stayed \nelevated post-pandemic, posing serious health risks.\n\n2. Beaver Moon 2024: See the final 'supermoon' of the year rise next to the \n'Seven Sisters' - Livescience.com\n   Source: Live Science\n   The year's fourth and final supermoon shines next to the spectacular \n'Seven Sisters' stars this week. Here's how to see November's full Beaver \nMoon rise.\n\n3. Humans Had Sex With At Least Three Different Denisovan Populations - \nIFLScience\n   Source: IFLScience\n   Some people in Oceania carry up to 5 percent Denisovan DNA.\n\nGenerating summary using ollama...\nError: model 'mistral' not found",
+      "error": "",
+      "duration": 1.678163
+    },
+    {
+      "command": "project status",
+      "timestamp": "2024-11-13T14:20:29.326035",
+      "status": "success",
+      "output": "Checking project status...",
+      "error": "",
+      "duration": 0.99259
+    },
+    {
+      "command": "content scan",
+      "timestamp": "2024-11-13T14:20:30.321423",
+      "status": "success",
+      "output": "Scanning content in ....",
+      "error": "",
+      "duration": 0.974562
+    },
+    {
+      "command": "ai 'What is Python?'",
+      "timestamp": "2024-11-13T14:20:31.298931",
+      "status": "success",
+      "output": "Processing request with gpt-4o-mini...\nFalling back to llama3.2...\n\nPython is a high-level, interpreted programming language that is widely used \nfor various purposes such as web development, scientific computing, data \nanalysis, artificial intelligence, and more. Created in the late 1980s by \nGuido van Rossum, Python is known for its simplicity, readability, and ease \nof use.\n\nHere are some key features of Python:\n\n1. **Easy to learn**: Python has a simple syntax and is often taught as a \nfirst programming language.\n2. **High-level language**: Python abstracts away many low-level details, \nallowing developers to focus on the logic of their program rather than the \nunderlying implementation.\n3. **Interpreted language**: Python code is executed line by line, making it \neasier to debug and test.\n4. **Object-oriented**: Python supports object-oriented programming (OOP) \nconcepts like classes, objects, inheritance, and polymorphism.\n5. **Large community**: Python has a vast and active community of developers,\nwhich means there are many resources available for learning and \ntroubleshooting.\n\nSome common use cases for Python include:\n\n1. **Web development**: Python is used in frameworks like Django and Flask to\nbuild web applications.\n2. **Data analysis**: Python's popular libraries like NumPy, pandas, and \nscikit-learn make it an ideal choice for data science and machine learning \ntasks.\n3. **Artificial intelligence**: Python's AI and machine learning libraries, \nsuch as TensorFlow and Keras, are widely used in industry and academia.\n4. **Automation**: Python is often used to automate tasks, such as data \nentry, file management, and system administration.\n\nSome popular Python libraries and frameworks include:\n\n1. NumPy\n2. pandas\n3. scikit-learn\n4. Django\n5. Flask\n6. TensorFlow\n7. Keras\n\nOverall, Python is a versatile and widely used language that is well-suited \nfor a variety of applications.",
+      "error": "",
+      "duration": 64.350737
+    }
+  ]
+}

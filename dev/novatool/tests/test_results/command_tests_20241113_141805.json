@@ -1,0 +1,64 @@
+{
+  "timestamp": "2024-11-13T14:18:09.252928",
+  "total_commands": 7,
+  "successful": 4,
+  "failed": 0,
+  "results": [
+    {
+      "command": "list",
+      "timestamp": "2024-11-13T14:18:05.145041",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env",
+      "error": "",
+      "duration": 1.058759
+    },
+    {
+      "command": "list --path .",
+      "timestamp": "2024-11-13T14:18:06.207611",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env",
+      "error": "",
+      "duration": 0.996565
+    },
+    {
+      "command": "news --topic technology --limit 3",
+      "timestamp": "2024-11-13T14:18:07.207650",
+      "status": "skipped",
+      "output": "Skipped: Missing API keys (NEWS_API_KEY, OPENAI_API_KEY)",
+      "error": "",
+      "duration": 0
+    },
+    {
+      "command": "news --topic science --ai-service ollama",
+      "timestamp": "2024-11-13T14:18:07.207682",
+      "status": "skipped",
+      "output": "Skipped: Missing API keys (NEWS_API_KEY, OPENAI_API_KEY)",
+      "error": "",
+      "duration": 0
+    },
+    {
+      "command": "project status",
+      "timestamp": "2024-11-13T14:18:07.207691",
+      "status": "success",
+      "output": "Checking project status...",
+      "error": "",
+      "duration": 1.035027
+    },
+    {
+      "command": "content scan",
+      "timestamp": "2024-11-13T14:18:08.245627",
+      "status": "success",
+      "output": "Scanning content in ....",
+      "error": "",
+      "duration": 1.004174
+    },
+    {
+      "command": "ai 'What is Python?'",
+      "timestamp": "2024-11-13T14:18:09.252892",
+      "status": "skipped",
+      "output": "Skipped: Missing API keys (NEWS_API_KEY, OPENAI_API_KEY)",
+      "error": "",
+      "duration": 0
+    }
+  ]
+}

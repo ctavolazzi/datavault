@@ -1,0 +1,27 @@
+{
+  "path": "/Users/ctavolazzi/Code/datavault",
+  "include_hidden": true,
+  "files": [
+    "analyze_project.py",
+    "file_analysis.log",
+    "project_structure.yaml",
+    "pytest.ini",
+    "README.md",
+    "setup.py",
+    "build",
+    "datasets",
+    "datavault",
+    "dev",
+    "dist",
+    "docs",
+    "output",
+    "src",
+    "tests",
+    "viz_output",
+    ".gitignore",
+    ".git",
+    ".index",
+    ".pytest_cache"
+  ],
+  "timestamp": "20241113_151755"
+}

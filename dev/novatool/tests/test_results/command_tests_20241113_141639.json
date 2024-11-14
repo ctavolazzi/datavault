@@ -1,0 +1,64 @@
+{
+  "timestamp": "2024-11-13T14:16:43.763974",
+  "total_commands": 7,
+  "successful": 4,
+  "failed": 3,
+  "results": [
+    {
+      "command": "list",
+      "timestamp": "2024-11-13T14:16:39.704662",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env",
+      "error": "",
+      "duration": 1.037189
+    },
+    {
+      "command": "list --path .",
+      "timestamp": "2024-11-13T14:16:40.745304",
+      "status": "success",
+      "output": "Listing files in: /Users/ctavolazzi/Code/datavault/dev/novatool\n\ud83d\udcc4 pytest.ini\n\ud83d\udcc1 .pytest_cache\n\ud83d\udcc4 pyproject.toml\n\ud83d\udcc1 tests\n\ud83d\udcc1 novatool\n\ud83d\udcc4 .gitignore\n\ud83d\udcc4 .env",
+      "error": "",
+      "duration": 1.004749
+    },
+    {
+      "command": "news --topic technology --limit 3",
+      "timestamp": "2024-11-13T14:16:41.753040",
+      "status": "error",
+      "output": "",
+      "error": "Missing required API keys: NEWS_API_KEY, OPENAI_API_KEY",
+      "duration": 5e-05
+    },
+    {
+      "command": "news --topic science --ai-service ollama",
+      "timestamp": "2024-11-13T14:16:41.755161",
+      "status": "error",
+      "output": "",
+      "error": "Missing required API keys: NEWS_API_KEY, OPENAI_API_KEY",
+      "duration": 3.1e-05
+    },
+    {
+      "command": "project status",
+      "timestamp": "2024-11-13T14:16:41.757025",
+      "status": "success",
+      "output": "Checking project status...",
+      "error": "",
+      "duration": 0.984875
+    },
+    {
+      "command": "content scan",
+      "timestamp": "2024-11-13T14:16:42.744489",
+      "status": "success",
+      "output": "Scanning content in ....",
+      "error": "",
+      "duration": 1.014864
+    },
+    {
+      "command": "ai 'What is Python?'",
+      "timestamp": "2024-11-13T14:16:43.761995",
+      "status": "error",
+      "output": "",
+      "error": "Missing required API keys: NEWS_API_KEY, OPENAI_API_KEY",
+      "duration": 4e-05
+    }
+  ]
+}

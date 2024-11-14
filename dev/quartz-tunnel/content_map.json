@@ -1,0 +1,70 @@
+{
+  "last_updated": "2024-11-13T13:27:48.412976",
+  "root_path": "/Users/ctavolazzi/Code/quartz/content",
+  "files": [
+    {
+      "name": "main.md",
+      "path": "main.md",
+      "size": 149,
+      "modified": "2024-11-13T13:02:47.601812"
+    },
+    {
+      "name": "intro-to-ai.md",
+      "path": "intro-to-ai.md",
+      "size": 6702,
+      "modified": "2024-11-10T04:48:34.492934"
+    },
+    {
+      "name": "index.md",
+      "path": "index.md",
+      "size": 2617,
+      "modified": "2024-11-10T04:48:34.492725"
+    },
+    {
+      "name": "AutoGen.md",
+      "path": "AutoGen.md",
+      "size": 7402,
+      "modified": "2024-11-10T04:48:34.492521"
+    },
+    {
+      "name": "AI-Coffee.md",
+      "path": "AI-Coffee.md",
+      "size": 4195,
+      "modified": "2024-11-10T04:48:34.492163"
+    },
+    {
+      "name": "test-auth.md",
+      "path": "test-auth.md",
+      "size": 90,
+      "modified": "2024-11-13T12:35:54.748593"
+    }
+  ],
+  "directories": {
+    "testfolder": {
+      "files": [
+        {
+          "name": "testfile.md",
+          "path": "testfolder/testfile.md",
+          "size": 90,
+          "modified": "2024-11-13T13:10:47.726779"
+        }
+      ],
+      "directories": {}
+    },
+    "notmain": {
+      "files": [
+        {
+          "name": "stuff.md",
+          "path": "notmain/stuff.md",
+          "size": 42,
+          "modified": "2024-11-13T13:05:47.294546"
+        }
+      ],
+      "directories": {}
+    },
+    "static": {
+      "files": [],
+      "directories": {}
+    }
+  }
+}

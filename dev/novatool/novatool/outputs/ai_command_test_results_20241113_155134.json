@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Basic Question",
+    "prompt": "What is Python?",
+    "response": "Python Python is an interpreted, high-level programming language for general-purpose programming.",
+    "duration": 3.403951,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "With Save Flag",
+    "prompt": "What are the benefits of AI?",
+    "response": "Improved Improved efficiency, faster decision-making, enhanced productivity, and increased accuracy in tasks",
+    "duration": 3.392409,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": true,
+      "no_history": false
+    }
+  },
+  {
+    "name": "Custom System Prompt",
+    "prompt": "Tell me a joke",
+    "response": "Sure Sure, here's one: \"Why don't scientists trust atoms? Because they make up everything!\"",
+    "duration": 7.605307,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a funny assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "OpenAI Provider",
+    "prompt": "What's the meaning of life?",
+    "response": "TheThe meaning of life is a profound and philosophical question that has been explored by thinkers, theologians, scientists, and artists throughout history. Different cultures and belief systems provide varying answers, often shaped by their values and worldviews. \n\nFor some, the meaning of life may be connected to spiritual or religious beliefs, such as fulfilling a purpose set by a higher power or seeking enlightenment. For others, meaning might be found in relationships, love, and community, emphasizing connection and shared experiences. \n\nPhilosophically, existentialists may argue that meaning is not inherent and that individuals must create their own purpose through their choices and actions. Conversely, others may find meaning in the pursuit of knowledge, happiness, or contributing to society.\n\nUltimately, the search for meaning is a deeply personal journey that can evolve over time based on experiences, perspectives, and reflections. Many find that engaging with others, exploring passions, and contemplating one's values help shape their understanding of life's meaning.",
+    "duration": 9.065259,
+    "success": true,
+    "options": {
+      "provider": "openai",
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": false
+    }
+  },
+  {
+    "name": "No History",
+    "prompt": "This shouldn't be saved",
+    "response": "Data Data not stored",
+    "duration": 4.903629,
+    "success": true,
+    "options": {
+      "provider": null,
+      "model": null,
+      "system": "You are a helpful assistant.",
+      "save": false,
+      "no_history": true
+    }
+  }
+]
